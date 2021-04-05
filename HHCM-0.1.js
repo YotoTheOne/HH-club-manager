@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         HaremHeroes Automatic++
+// @name         HH club manager
 // @namespace    https://github.com/YotoTheOne/HH-club-manager
 // @version      0.1
 // @description  Open the menu in HaremHeroes(topright) to toggle AutoControlls. Supports AutoSalary, AutoContest, AutoMission, AutoQuest, AutoTrollBattle, AutoArenaBattle and AutoPachinko(Free), AutoLeagues, AutoChampions and AutoStatUpgrades. Messages are printed in local console.
@@ -17,9 +17,8 @@
 
 
 // go to page "clubs"
-var togoto = $("nav div[rel='content'] a:has(.clubs)").attr("href");
-console.log(togoto);
-console.log(window.location.origin);
+var togoto = "clubs.html";
+console.log(window.location.origin+togoto);
 //window.location = window.location.origin + togoto;
 
 // retrieve members list with name, level, girls and contribution
