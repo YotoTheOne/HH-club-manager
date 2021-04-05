@@ -17,9 +17,7 @@
 
 
 // go to page "clubs"
-var togoto = "clubs.html";
-console.log(window.location.origin+togoto);
-//window.location = window.location.origin + togoto;
+window.location = window.location.origin + "/clubs.html";
 
 // retrieve members list with name, level, girls and contribution
 
