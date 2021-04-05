@@ -18,7 +18,9 @@
 
 // go to page "clubs"
 var togoto = $("nav div[rel='content'] a:has(.clubs)").attr("href");
-window.location = window.location.origin + togoto;
+console.log(togoto);
+console.log(window.location.origin);
+//window.location = window.location.origin + togoto;
 
 // retrieve members list with name, level, girls and contribution
 
